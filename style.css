@@ -1,0 +1,301 @@
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 11px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown:hover .dropdown-content {display: block;}
+
+#main{
+    width:100%;
+    display: flex;
+    margin: 20px 0;
+}
+.content{
+    width:50%;
+    padding: 40px;
+}
+
+.carousel slide{
+    width:50%;
+}
+.carousel-item{
+    height: 400px;
+}
+#experiences{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+}  
+
+.ex-img{
+    width:50%;
+}
+.ex-img img{
+    width:100%;
+    border-radius: 30px;
+}
+.ex-content{
+    width:50%;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.con{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+}
+.con a{
+    text-decoration: none;
+    color: #6c757d;
+}
+#venues{
+    background-image: url("img/home/unforegetable-banner.png");
+    width:100%;
+    height:80vh;
+    background-size: cover;
+    background-position:center ;
+}
+ 
+#unforgetvenue div{
+    text-align: center;
+    padding: 20px 50px;
+}
+#business div{
+    text-align: center;
+    padding: 20px;
+}
+
+#food div{
+    text-align: center;
+    padding: 20px;
+}
+#services{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.big-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:33%;
+}
+.img-box{
+    width:33%;
+    padding-top: 40px;
+}
+.img-box img{
+    width: 100%;
+    height:500px;
+    object-fit: fill;
+}
+.small-box{
+    padding:30px;
+}
+#testimonial-carousel{
+    background-color: #1A4122;
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width:100%;
+  }
+  .mySlides img{
+    width:100%;
+    height:400px;
+    object-fit: contain;
+    background-color: #1A4122;
+  }
+  .mySlides p{
+    width:50%;
+  }
+  
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .author {color: cornflowerblue;}
+  #cook{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    padding:40px;
+    align-items: center;
+  }
+  .cook-box{
+    width:50%;
+    height:500px;
+  }
+  .cook-box-img{
+    width:50%;
+  }
+  .cook-box-img img{
+    width:100%;
+  }
+  #ex-design{
+    display: flex;
+    width:100%;
+    height:400px;
+    padding:30px;
+    justify-content: space-between;
+  }
+  #ex-design h1, h5{
+    color: #656d4a;
+  }
+  #ex-design a{
+    color: #656d4a;
+  }
+  .design-o{
+    width:50%;
+  }
+  .design-t{
+    display: flex;
+    width:50%;
+    background-color: white;
+    height:300px;
+  }
+  #newsletter{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    background-color: #fb5c07;
+    height:364px;
+    padding-left: 40px;
+    margin-top: 40px;
+    width:100%;
+    margin-top:20px;
+    
+}
+.news-con{
+
+    padding:50px;
+}
+form input{
+    margin: 20px;
+    outline: none;
+    width:400px;
+    border: none;
+    height:40px;
+    border-radius: 40px;
+
+}
+#footer-one{
+    display: flex;
+}
+#newsletter form{
+    display: flex;
+}
+.news-img{
+    width:50%;
+    height: 700px;
+}
+.news-img img{
+    width:100%;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%;
+    height: 600px;
+    border-bottom: 1px solid #a3b18a;
+    background-color: #f5ebe0;
+}
+#footer a{
+    text-decoration: none;
+    color:#a3b18a;
+}
+#footer p{
+    text-decoration: none;
+    color:#9a8c98;
+}
+#footer h5{
+    text-decoration: none;
+    color:#9a8c98;
+}
+#footer-end{
+    background-color: #f5ebe0;;
+}
+  
